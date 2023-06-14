@@ -24,9 +24,10 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-subject-fe"
+    }
+  },
+  "defaultProject": "angular-subject-fe",
+  "cli": {
+    "analytics": "ad17f30d-fc12-447a-84ea-e3297660e72f"
+  }
 }

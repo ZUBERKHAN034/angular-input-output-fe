@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-header"><strong>Child</strong></div>
+  <div class="card-body">
+    <h5 class="card-title">
+      Logged in as <span class="text-primary">{{ usernameFromParent }}</span>
+    </h5>
+    <input type="text" class="form-control mb-2" #inputUsername />
+    <button class="btn btn-primary" (click)="handleSetUsername(inputUsername)">
+      Set Username
+    </button>
+  </div>
+</div>
